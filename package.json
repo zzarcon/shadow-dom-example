@@ -1,0 +1,22 @@
+{
+  "name": "shadow-dom-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzarcon/shadow-dom-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzarcon/shadow-dom-example/issues"
+  },
+  "homepage": "https://github.com/zzarcon/shadow-dom-example",
+  "devDependencies": {
+    "webcomponents.js": "^0.6.1"
+  }
+}

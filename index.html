@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shadow DOM</title>
+  <script src="node_modules/webcomponents.js/webcomponents.js"></script>
+</head>
+<body>
+  <div><h3>Light DOM</h3></div>
+
+  <script>
+    var root = document.createElement('div');
+    var shadow = root.createShadowRoot();
+    shadow.innerHTML = '<style>h3{ color: red; }</style>' + 
+                     '<h3>Shadow DOM</h3>';
+    document.body.appendChild(root);                   
+  </script>
+</body>
+</html>
